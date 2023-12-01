@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Radial Gradien</title>
+    <!-- Sintaks Sederhana 
+    background-image : radial-gradien(<warna awal>, <warna akhir>);-->
+    <!-- Sintaks Lengkap
+    background-image:radial-gradien(<tipe : Elipse||Sircle><jangkauan> at <posisi-y><posisi-x>, <warna>) 
+    Jangkauan 
+    Closest-Corner
+    jarak dari pusat gradient ke sudut terdekat elemen
+    Closest-side
+    jarak dari pusat gradient ke sisi terdekat elemen
+    Farthest-Corner
+    jarak dari pusat gradien ke sudut terjauh elemen
+    Farthet-side
+    jarak dari pusta gradient ke sisi terjauh elemen
+
+    Posisi
+    Posisi y
+    top
+    center
+    botton
+    Posisi x
+    top
+    center
+    botton-->
+    <style>
+        .col-1 {
+            width: 600px;
+            height: 300px;
+            background-image: radial-gradient(red, blue);
+        }
+        .col-2 {
+            margin-top: 15px;
+            width: 600px;
+            height: 300px;
+            background-image: radial-gradient(circle closest-side, red, rgb(88, 88, 121));
+        }
+        .col-3 {
+            margin-top: 15px;
+            width: 600px;
+            height: 300px;
+            background-image: radial-gradient(circle farthest-side, red, rgb(88, 88, 121));
+        }
+        .col-4 {
+            margin-top: 15px;
+            width: 600px;
+            height: 300px;
+            background-image: radial-gradient(circle farthest-side at top left, red, blue);
+        }
+    </style>
+</head>
+<body>
+    <div class="col-1">
+
+    </div>
+    <div class="col-2">
+
+    </div>
+    <div class="col-3">
+
+    </div>
+    <div class="col-4">
+
+    </div>
+</body>
+</html>

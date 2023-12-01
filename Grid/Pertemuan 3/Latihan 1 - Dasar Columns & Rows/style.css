@@ -1,0 +1,23 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 60%;
+    margin: 50px auto;
+    display: grid;
+    grid-template-columns: 100px 25% 200px;
+    grid-template-rows: 20% 300px 55px;
+}
+
+.item {
+    background-color: rgb(8, 80, 56);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.item:nth-child(even) {
+    background-color: rgb(240, 136, 67);
+}

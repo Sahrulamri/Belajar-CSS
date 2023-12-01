@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Border Radius</title>
+    <style>
+        div {
+            width: 100px;
+            height: 100px;
+            background-color: aqua;
+            /* border-radius: 5px; */
+            border-radius: 0 50% 0 50%;
+            /* background-image: url(1655869351293.jpg); */
+            /* background-repeat: no-repeat; supaya gambarnya nggak berulang */
+            /* background-size: cover; supaya gambarnya penuh */
+            text-align: center;
+            line-height: 100px; /* untuk mebuat tulisan  ketengah secara vertikal gunakan line height dengan ukuran yang sama dengan height */
+             
+        }
+
+        .coba {
+            width: 100px;
+            height: 100px;
+            background-color: aqua;
+            text-align: center;
+            line-height: 450px;
+            overflow: hidden; /*untuk memotong bagian foto yang ada di lar frame*/
+            border-radius: 50% 0 50% 0;
+        }
+        .coba img {
+            width: 450px;
+        }
+
+        .card {
+            display: block;
+            
+        }
+    </style>
+</head>
+<body>
+    <div class="card">
+        <div>Hello World</div>
+    <div class="coba"><img src="1655869351293.jpg" alt="gambar"></div>
+    </div>
+    
+</body>
+</html>

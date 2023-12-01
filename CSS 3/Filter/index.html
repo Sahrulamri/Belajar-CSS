@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Filter</title>
+    <!-- Filter
+    blur (px)
+    brightness (angka | %)
+    contrast (angka | %)
+    saturation (angka | %)
+    grayscale (angka | %)
+    sepia (angka | %)
+    hue - rotate (deg)
+    invert (angka | %)
+    opacity (angka | %)
+    drop-shadow (sama seperti box-shadow)
+        Filter Editor
+        https://www.youtube.com/redirect?event=video_description&redir_token=QUFFLUhqbkpuRGs4VGFSTVhvdEJXOXpvSUtBeTl0QUp1Z3xBQ3Jtc0tualJnSWprbFhfSVRXSjZETFBBNS1ycV9xWFQzWnZoRGRqU0Z4cVk5OVZZMjdhdHBqLXFtTkt0S3NMd2RwLW83V0prUTdZblFjTER5eHY2WTF6U0hfX2hLLWVCUDRMTlpidjNIYV9qRWZDdjJhTmV1QQ&q=http%3A%2F%2Fhtml5-demos.appspot.com%2Fstatic%2Fcss%2Ffilters%2Findex.html&v=HvikjBA5jMc
+-->
+</head>
+<style>
+    .kebawah {
+        display: block;
+    }
+    .kebawah h1 {
+        text-align: center;
+    }
+    img {
+        width: 300px;
+        
+    }
+    .nama {
+        margin: 20px;
+    }
+    .nama h3 {
+        text-align: center;
+    }
+    .rata {
+        display: flex;
+    }
+    .foto1 {
+        filter: blur(5px);
+    }
+
+    .foto2 {
+        filter: brightness(130%);
+    }
+
+    .foto3 {
+        filter: contrast(150%);
+    }
+    .foto4 {
+        filter: saturate(150%);
+    }
+    .foto5 {
+        filter: grayscale(100%);
+    }
+    .foto6 {
+        filter: sepia(50%);
+    }
+
+    .foto7 {
+        filter: hue-rotate(50deg);
+    }
+    .foto8 {
+        filter: invert(80%);
+    }
+    .foto9 {
+        filter: opacity(.5);
+    }
+    .foto10 {
+        filter: drop-shadow(8px 8px 8px black);
+    }
+</style>
+<body>
+    <div class="kebawah">
+        <h1>Filter</h1>
+        <div class="rata">
+            <div class="nama">
+                <h3>blur</h3>
+                <img class="foto1" src="1655869351293.jpg" alt="foto">
+            </div>
+            <div class="nama">
+                <h3>brightness</h3>
+                <img class="foto2" src="1655869351293.jpg" alt="foto">
+            </div>
+            <div class="nama">
+                <h3>cotrass</h3>
+                <img class="foto3" src="1655869351293.jpg" alt="foto">
+            </div>
+            <div class="nama">
+                <h3>Saturation</h3>
+                <img class="foto4" src="1655869351293.jpg" alt="foto">
+            </div>
+            <div class="nama">
+                <h3>grayscale</h3>
+                <img class="foto5"src="1655869351293.jpg" alt="foto">
+            </div>
+        </div>
+        <div class="rata">
+            <div class="nama">
+                <h3>Sepia</h3>
+                <img class="foto6" src="1655869351293.jpg" alt="foto">
+            </div>
+            <div class="nama">
+                <h3>Hue-rotate</h3>
+                <img class="foto7" src="1655869351293.jpg" alt="foto">
+            </div>
+            <div class="nama">
+                <h3>Invert</h3>
+                <img class="foto8" src="1655869351293.jpg" alt="foto">
+            </div>
+            <div class="nama">
+                <h3>Opacity</h3>
+                <img class="foto9" src="1655869351293.jpg" alt="foto">
+            </div>
+            <div class="nama">
+                <h3>Drop-Shadow</h3>
+                <img class="foto10" src="1655869351293.jpg" alt="foto">
+            </div>
+        </div>
+    </div>
+   
+    
+</body>
+</html>
